@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+body{
+    background-color: yellow;
+}
+.main{
+    background-color: black;
+    height: fit-content;
+    width: 600px;
+    margin:0 auto;
+    margin-top: 150px;
+    padding: 20px;
+    box-shadow: 20px 20px 40px rgb(97,63,0,0.4);
+    border-radius: 5px;
+}
+span{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 80px;
+}
+p{
+    color: white;
+    word-wrap: break-word;
+    line-height: 40px;
+    opacity: 0;
+}
+button{
+    border: none;
+    display: block;
+    background-color: yellow;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(255, 255, 0, 0.90);
+}
+.fade{
+    opacity: 1;
+    transition: opacity 1.5s;
+}
